@@ -1441,3 +1441,17 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/posts" for 99.95.55.133 at 2019-12-07 07:19:41 +0000
+Cannot render console from 99.95.55.133! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/elizparisi/model-class-methods-reading-v-000/app/controllers/posts_controller.rb:14: else without rescue is useless
+    else
+    ^~~~
+/home/elizparisi/model-class-methods-reading-v-000/app/controllers/posts_controller.rb:43: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/posts_controller.rb:14: else without rescue is useless
+app/controllers/posts_controller.rb:43: syntax error, unexpected end, expecting end-of-input
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
